@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK TRACKER APP</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="admin-dashboard.html">
+    <link rel="stylesheet" href="student-dashboard.html">
+</head>
+<body style="background-image: url('image/back.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+    
+<div class="container">
+    <h1>GET READY STUDENTS</h1>
+    <img src="image/student.png" alt="Example Image">
+    
+    <div class="buttons">
+        <button id="adminButton">ADMIN</button>
+        <button id="studentButton">STUDENTS</button>
+    </div>
+    
+    <div id="adminLoginContainer" class="login-container">
+        <h2>Admin</h2>
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <button id="loginButton">Login</button>
+    </div>
+
+    <div id="studentLoginContainer" class="login-container">
+        <h2>Students</h2>
+        <input type="text" id="studentUsername" placeholder="Username">
+        <input type="password" id="studentPassword" placeholder="Password">
+        <button id="studentLoginButton">Login</button>
+    </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
